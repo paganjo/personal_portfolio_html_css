@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h1>My Portfolio</h1>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Hello, I'm Tanishq</h2>
+
+        <p>A passionate developer interested in web development and cybersecurity.</p>
+
+        <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about">
+            <p>
+        I enjoy building websites, applications, and creative
+        technology projects. I love learning new technologies
+        and solving real-world problems.
+            </p>
+        </div>
+
+    </section>
+    <hr>
+    <!-- Skills Section -->
+    <section id="skills">
+
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-box">
+                <h3>HTML</h3>
+                <p>Building webpage structure</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>CSS</h3>
+                <p>Creating responsive designs</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>JavaScript</h3>
+                <p>Interactive web development</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>C++</h3>
+                <p>Problem solving and DSA</p>
+            </div>
+            <div class="skill-box">
+                <h3>Python</h3>
+                <p>Backend and ML projects</p>
+            </div>
+
+        </div>
+
+    </section>
+    <hr>
+    <!-- Projects Section -->
+    <section id="projects">
+
+        <h2 class="section-title">Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Image Classification</h3>
+                <p>Implemented mobilenetV2 using python to make an image classification architecture in Google Colab.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Plant Care Website</h3>
+                <p>Full Stack project for all the plant care-takers.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>Grievance Redressal Portal</h3>
+                <p>Made to manage grievances of the public</p>
+            </div>
+
+        </div>
+
+    </section>
+    <hr>
+    <!-- Contact Section -->
+    <section id="contact">
+
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact">
+            <p>Email: <a href="mailto:tanishqkaushik70@gmail.com" target="_blank">tanishqkaushik70@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/paganjo" target="_blank">github.com/paganjo</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/tanishq-k-086a4124b/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BKDYjO2xJSdOjHuytVycEMQ%3D%3D" target="_blank">linkedin.com/in/tanishq-k-086a4124b/</a></p>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Tnshq Kshk</p>
+    </footer>
+
+</body>
+</html>
